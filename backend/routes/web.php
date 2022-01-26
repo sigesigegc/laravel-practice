@@ -20,3 +20,5 @@ use Illuminate\Support\Facades\Route;
 Route::get('hello', 'App\Http\Controllers\HelloController@index');
 Route::get('/', 'App\Http\Controllers\PageController@index');
 Route::get('/company', 'App\Http\Controllers\PageController@company');
+Route::get('/articles', 'App\Http\Controllers\ArticlesController@index');
+Route::get('/articles/{id}', 'App\Http\Controllers\ArticlesController@show');
