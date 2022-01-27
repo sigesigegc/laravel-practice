@@ -24,3 +24,4 @@ Route::get('/articles', 'App\Http\Controllers\ArticlesController@index');
 Route::get('/articles/{id}', 'App\Http\Controllers\ArticlesController@show');
 
 Route::get('/api', 'App\Http\Controllers\ApiController@index');
+Route::get('/scraping', 'App\Http\Controllers\ScrapingController@index');
