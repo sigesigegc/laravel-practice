@@ -22,3 +22,5 @@ Route::get('/', 'App\Http\Controllers\PageController@index');
 Route::get('/company', 'App\Http\Controllers\PageController@company');
 Route::get('/articles', 'App\Http\Controllers\ArticlesController@index');
 Route::get('/articles/{id}', 'App\Http\Controllers\ArticlesController@show');
+
+Route::get('/api', 'App\Http\Controllers\ApiController@index');
