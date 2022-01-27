@@ -9,7 +9,7 @@ class apiController extends Controller
 {
     public function index()
     {
-        $url = "http://koyomi.zingsystem.com/api/"; //url次第
+        $url = "http://koyomi.zingsystem.com/api/";
         $method = "GET";
         $param = array(
             "mode" => "m",
